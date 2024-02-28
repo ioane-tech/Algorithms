@@ -1,10 +1,6 @@
 function removeQount(string){
-
     let array = string.split("");
-    
-
     let answer = ""
-
     let xInARowCounter = 0
 
     for (let i = 0; i < array.length; i++) {
@@ -20,10 +16,9 @@ function removeQount(string){
         } else {
             xInARowCounter = 0;
         }
-
     }
-
     return answer
 }
+
 
 console.log(removeQount("xxxxxixxxxo"))
