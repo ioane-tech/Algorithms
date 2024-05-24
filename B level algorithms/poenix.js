@@ -1,4 +1,4 @@
-function myPow(x, n) {
+function myPow(x, n) {z
     return Math.pow(x, n);
 }
 
